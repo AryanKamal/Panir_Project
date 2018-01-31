@@ -33,3 +33,4 @@ colnames(t) <- names(v)
 t= as.data.frame(t)
 
 
+salam = "salam"
