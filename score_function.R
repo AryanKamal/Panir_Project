@@ -73,7 +73,6 @@ Panir_subgraph <- function(g,geneList , iter = 1000 , lower_tail = TRUE) {
   answer = list ( 
     z_score = z,
     modulation_score = m,
-    random_scores = random_scores,
     pvalue = pval
     )
   class(answer) <- "Score_class"
